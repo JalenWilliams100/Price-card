@@ -1,0 +1,42 @@
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background-color: greenyellow;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+html{
+	box-size: border-box;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+panel{ 
+	background-color:white;
+	border-radius: 10px;
+	padding: 30px 25px;
+	max-width: 960px;
+	display:flex;
+	flex-directions: column;
+	text-align: center;
+	text-transform: uppercase;
+}

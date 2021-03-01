@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background-color: blue;
+}
+html{
+	box-size: border-box;
+	font-family: sans-serif;
+}
